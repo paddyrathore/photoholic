@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif; 
+}
+.infomain {
+	width: 100%;
+}
+.topmost {
+	width: 100%;
+	height: 50px;
+	background-color:  #6396bc;
+	position: fixed;
+	top: 0;
+}
+a {
+	 text-decoration: none;
+	 color: #ccc;
+}
+li {
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+}
+.topmost a{
+	font-weight: 20px;
+}
+.main {
+	margin-top: 40px;
+	text-align: center !important; 
+ 	padding: 20px;	
+ }
+.head	{ 
+	text-align: center;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+}
+.quote {
+	font-size: 300;
+	font-style: italic;
+	
+}
+.togglebutton {
+	color: #fff !important;
+	background-color: #000 !important;
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+} 
+.togglebutton:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.MyGrid{
+	margin-bottom: 128px;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.w3-row{
+	margin-bottom: 128px;
+}
+.row-padding img{
+	padding: 8px;
+}
+.w3{
+	float: left;
+	width: 33.33333%
+}
+img {
+	width: 100%;
+}
